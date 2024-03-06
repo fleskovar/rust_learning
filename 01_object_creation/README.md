@@ -17,10 +17,14 @@ is to compare low-effort implementations.
 
 ## Results
 
-Python - 15s
-Python (using pandas apply) - TBD
-Cython - 3s
-*Rust (single thread) - 1.5s
-*Rust (using rayon for parallelization) - 0.2s
+- Python - 15s
+
+- Python (using pandas apply) - TBD
+
+- Cython - 3s
+
+- Rust (single thread) - 1.5s*
+
+- Rust (using rayon for parallelization) - 0.2s*
 
 *(remember to use "maturin develop --release" to get optimized build)
