@@ -1,0 +1,17 @@
+[package]
+name = "new_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "new_test"
+crate-type = ["cdylib"]
+
+[dependencies]
+ndarray = {version="0.15.6", features= ["rayon"]} 
+ndarray-linalg = "0.16.0"
+numpy = "0.20.0"
+polars = "0.38.1"
+pyo3 = "0.20.0"
+rayon = "1.9.0"
